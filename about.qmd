@@ -1,0 +1,17 @@
+---
+title: About Us
+format:
+  html:
+    toc: false
+---
+
+**Yujin Song** and **Lu Yii Wong** are second-year graduate students in the Master of City Planning program at the University of Pennsylvania’s Weitzman School of Design. Both specialize in land use and environmental planning, with a shared passion for leveraging data-driven approaches to address urban and environmental challenges.
+
+This is a final project for **MUSA 550: Geospatial Data Science in Python**. The project combines their expertise in urban planning and geospatial analytics to explore pressing issues in **health equity** and **environmental justice**.
+
+<br />
+
+:::{.caption-centeralign}
+![**Yujin Song, Lu Yii Wong**](images/profile.jpg){width=80%}
+
+:::

@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+  title: "Defining the Health Equity Index in Philadelphia at the census tract level"
+
+website:
+
+  bread-crumbs: true
+  back-to-top-navigation: true
+
+  sidebar:
+    logo: images/logo.png
+    pinned: true
+    style: "docked"
+    align: center
+    border: true
+    search: true
+    collapse-level: 2
+
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "About Us"
+        href: about.qmd
+      - text: "---"    
+      - text: "0. Introduction"
+        href: pages/Introduction.qmd
+      - text: "1. Preparing Data"
+        href: pages/DataPrep.ipynb
+      - text: "2. Getting Insights"
+        href: pages/DataAnalysis.ipynb
+      - text: "3. Clustering Analysis"
+        href: pages/Clustering.ipynb
+      - text: "4. Conclusion"
+        href: pages/Conclusion.ipynb
+      - text: "---"
+      - text: "Data Source & Methodology"
+        href: pages/DataSource.qmd
+
+  page-footer:
+    border: true
+    left: "Copyright 2024 Yujin Song, Lu Yii Wong" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://x.com/ 
+          
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true

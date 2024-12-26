@@ -1,0 +1,28 @@
+---
+title: |
+    | Defining the Health Equity Index in Philadelphia 
+    | At the Census Tract Level
+   
+subtitle: "MUSA 550: Final Project"
+---
+
+## Welcome to Our Final Project!
+
+We are excited to present **Defining the Health Equity Index in Philadelphia** at the Census Tract Level.
+
+
+
+## About the Project
+
+Health equity is a vital issue in urban areas, where environmental and socioeconomic disparities shape the well-being of communities. In Philadelphia, these challenges are especially pronounced, with marginalized populations disproportionately affected by environmental hazards and limited access to resources that support healthy living.
+
+
+
+## Our Vision
+
+Our project introduces the Health Equity Index (HEI), a tool designed to analyze health outcomes and identify vulnerable areas across the city. By combining environmental data—such as tree canopy coverage, heat vulnerability, asthma and cancer rates, and childhood blood lead levels—with socioeconomic indicators like income, education, and racial composition, the HEI provides a comprehensive framework for understanding health inequities.
+
+We hope this work contributes valuable insights and fosters meaningful discussions around promoting health equity in Philadelphia. 
+
+Thank you for exploring our project!
+

@@ -1,0 +1,66 @@
+# Data Source & Methodology
+
+## Datasets
+
+1. **Child Blood Lead Levels (2013-2015)**  
+   - Identifies cases of children with blood lead levels over 5 µg/dL, mapped by census tract.  
+   - Sourced from the City of Philadelphia.  
+   - [Dataset Link](https://opendataphilly.org/datasets/philadelphia-child-blood-lead-levels/)
+
+2. **Cancer and Asthma (2020)**  
+   - Reports crude cancer and asthma prevalence rates among adults aged 18 and older.  
+   - Sourced from the Centers for Disease Control and Prevention’s PLACES initiative.  
+   - [Dataset Link](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2022-/shc3-fzig/about_data)
+
+3. **Heat Vulnerability (2017-2019)**  
+   - Captures heat vulnerability by census tract, considering heat exposure and sensitivity indicators.  
+   - Sourced from the City of Philadelphia.  
+   - [Dataset Link](https://opendataphilly.org/datasets/heat-vulnerability-by-census-tract/)
+
+4. **Tree Canopy (2015)**  
+   - Includes point data for trees with a diameter greater than 6 inches, providing insights into urban tree distribution.  
+   - Sourced from the City of Philadelphia.  
+   - [Dataset Link](https://opendataphilly.org/datasets/ppr-tree-canopy/)
+
+5. **Socioeconomic and Demographic Data (2019)**  
+   - Provides indicators like median household income, racial composition, and educational attainment.  
+   - Sourced from the 2019 Census Bureau 5-Year American Community Survey.  
+   - Pulled via API.
+
+6. **Philadelphia Census Tract Boundaries (2010)**  
+   - Contains spatial data for Philadelphia’s census tract boundaries.  
+   - [Dataset Link](https://opendataphilly.org/datasets/census-tracts/)
+
+
+## Methodology
+
+### Data Cleaning and Preparation
+Each dataset underwent a standardized cleaning process to ensure compatibility and consistency:
+
+- Verified that the **Coordinate Reference System (CRS)** matched the Philadelphia Census Tract Boundary layer and reprojected datasets as necessary.
+
+- Conducted a **spatial join** to integrate datasets with the Census Tract Boundary layer, preserving essential columns like census tract names and GEOID.
+
+- Created preliminary visualizations of key variables by census tract to identify spatial patterns.
+
+### Socioeconomic and Demographic Data Processing
+Additional steps were required to clean and prepare census data:
+
+- Retrieved 2019 5-Year ACS data for Philadelphia by census tracts via an API, including over 30 columns of demographic and socioeconomic information.
+
+- Ensured all relevant columns were numeric to enable further processing.
+
+- Computed the following key variables:
+
+  - **Median Household Income**
+  
+  - **Percentage Non-White Population**
+  
+  - **Percentage Dependent Population** (Ages 0-15 and 65 and older)
+  
+  - **Percentage of Population with Higher Education** (At least a high school diploma)
+  
+- Spatially joined processed census data with the Census Tract Boundary layer.
+
+- Generated visualizations to identify potential patterns and relationships.
+
